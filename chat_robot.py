@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*-  coding: utf-8 -*-
 
+'''
+文件描述：基于微信公众号的智能聊天机器人
+'''
+
 import urllib.request
 import urllib.parse
 
