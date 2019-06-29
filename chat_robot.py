@@ -32,6 +32,10 @@ def get_robot_reply(question):
     return answer
 
 if __name__ == '__main__':
-    print(get_robot_reply("你叫什么名字"))
-    print(get_robot_reply("武汉明天天气如何"))
-    print(get_robot_reply("你到底是谁"))
+    # print(get_robot_reply("你叫什么名字"))
+    # print(get_robot_reply("武汉明天天气如何"))
+    # print(get_robot_reply("你到底是谁"))
+    while True:
+        question = input("\n我说:")
+        answer = get_robot_reply(question)
+        print("\nHalen说%s"%answer)
